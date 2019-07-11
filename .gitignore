@@ -1,0 +1,13 @@
+# Recursive
+target
+build
+.gradle
+.vagrant
+out
+.idea/
+/classes/
+/tmp/
+/etc/
+/logs/
+/ssl/
+/uploads/
