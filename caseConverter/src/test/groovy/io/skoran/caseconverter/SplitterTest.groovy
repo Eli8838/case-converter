@@ -27,6 +27,7 @@ class SplitterTest extends Specification {
         "very Nice Text"    | ["very", "Nice", "Text"]
         "very-Nice-Text"    | ["very", "Nice", "Text"]
         "very_Nice_Text"    | ["very", "Nice", "Text"]
-        "1very_3Nice_4Text" | ["1very", "3Nice", "4Text"]
+        "1very_3Nice_4Text" | ["1very", "3", "Nice", "4", "Text"]
+        "1Very_3Nice_4Text" | ["1", "Very", "3", "Nice", "4", "Text"]
     }
 }
