@@ -1,6 +1,6 @@
 # Case converter
 
-A utility to convert from and to different strig formats/cases such as camel case, snake case etc.
+A utility to convert from and to different string formats/cases such as camel case, snake case etc.
 
 
 ### Examples:
@@ -22,4 +22,4 @@ the main method to invoke is:
 ```java
 CaseConverter.convert(@NonNull String stringToConvert, @NonNull CaseType newCase)
 ```
-the code will automaticly convert any given string casing to the newCase.
+the code will automatically convert any given string casing to the newCase.
